@@ -1,5 +1,7 @@
 package javaCalculatorTTSHW;
 
+import java.math.BigInteger;
+
 public class MagicCalculator extends Calculator{
 
 	// Create a MagicCalculator that inherits its basic functionality from your calculator and finds square root, sin, cos, tan, and factorial
@@ -36,4 +38,11 @@ public class MagicCalculator extends Calculator{
 	}
 	
 	//factorial Method
+	public BigInteger factorial(int num7) {
+		BigInteger factorial = BigInteger.ONE;
+		for (int i = 2; i <= num7; i++)
+			factorial = factorial.multiply(BigInteger.valueOf(i));
+		return factorial;
+	
+	}
 }

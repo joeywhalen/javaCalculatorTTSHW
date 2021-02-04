@@ -1,5 +1,7 @@
 package javaCalculatorTTSHW;
 
+import java.math.BigInteger;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -9,6 +11,7 @@ public class Main {
 		double num4 = 45.0;
 		double num5 = 15.0;
 		double num6 = 30.0;
+		int num7 = 5;
 		
 		Calculator math = new Calculator();
 		
@@ -40,6 +43,9 @@ public class Main {
 		
 		double tanResult = Magicmath.tan(num6);
 		System.out.printf("The tangent of %s degrees is: %s\n", num6, tanResult);
+		
+		BigInteger factorialResult = Magicmath.factorial(num7);
+		System.out.printf("The factorial of %s is: %s\n", num7, factorialResult);
 
 	}
 
