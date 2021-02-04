@@ -6,6 +6,7 @@ public class Main {
 		int num1 = 8;
 		int num2 = 4;
 		double num3 = 9;
+		double num4 = 45.0;
 		
 		Calculator math = new Calculator();
 		
@@ -28,6 +29,9 @@ public class Main {
 		
 		double squareRootResult = Magicmath.squareRoot(num3);
 		System.out.printf("The square root of %s is: %s\n", num3, squareRootResult);
+		
+		double sinResult = Magicmath.sin(num4);
+		System.out.printf("The sin of %s is: %s\n", num4, sinResult);
 
 	}
 

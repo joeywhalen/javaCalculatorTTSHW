@@ -6,10 +6,18 @@ public class MagicCalculator extends Calculator{
 	
 	// square root Method
 	public double squareRoot(double num3) {
-	  double squareRoot = 9;
+	  double squareRoot = 0;
 	  squareRoot = Math.pow(num3, 0.5);
 	  return squareRoot;
 	}
 	
+	// sin Method
+	public double sin(double num4) {
+		double sin = 0;
+		double radians = Math.toRadians(num4);// convert degrees to radians
+		sin = Math.sin(radians);
+		return sin;
+		
+	}
 	
 }
