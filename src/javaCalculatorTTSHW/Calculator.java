@@ -32,6 +32,13 @@ public class Calculator {
 		return divide;
 	}
 	
+	// square Method
+	public static int square(int num1, int num2) {
+		int square = 0;
+		square = num1 * num1;
+		return square;
+	}
+	
 	public static void main(String[] args) {
 		int num1 = 8;
 		int num2 = 4;
@@ -39,7 +46,7 @@ public class Calculator {
 		Calculator math = new Calculator();
 		
 		int addResult = math.add(num1, num2);
-		System.out.println(" The sum is: " + addResult);
+		System.out.println("The sum is: " + addResult);
 		
 		int subtractResult = math.subtract(num1, num2);
 		System.out.println("The difference is " + subtractResult);
@@ -49,6 +56,9 @@ public class Calculator {
 		
 		int divideResult = math.divide(num1, num2);
 		System.out.println("The quotient is " + divideResult);
+		
+		int squareResult = math.square(num1, num2);
+		System.out.println("The square is " + squareResult);
 		
 	}
 }
