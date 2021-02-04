@@ -33,10 +33,13 @@ public class Main {
 		System.out.printf("The square root of %s is: %s\n", num3, squareRootResult);
 		
 		double sinResult = Magicmath.sin(num4);
-		System.out.printf("The sin of %s is: %s\n", num4, sinResult);
+		System.out.printf("The sin of %s degrees is: %s\n", num4, sinResult);
 		
 		double cosResult = Magicmath.cos(num5);
-		System.out.printf("The cosine of %s is: %s\n", num5, cosResult);
+		System.out.printf("The cosine of %s degrees is: %s\n", num5, cosResult);
+		
+		double tanResult = Magicmath.tan(num6);
+		System.out.printf("The tangent of %s degrees is: %s\n", num6, tanResult);
 
 	}
 

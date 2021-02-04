@@ -28,4 +28,12 @@ public class MagicCalculator extends Calculator{
 	}
 	
 	//tan Method
+	public double tan(double num6) {
+		double tan = 0;
+		double radians = Math.toRadians(num6);
+		tan = Math.tan(radians);
+		return tan;
+	}
+	
+	//factorial Method
 }
