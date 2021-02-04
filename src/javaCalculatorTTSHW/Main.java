@@ -7,6 +7,8 @@ public class Main {
 		int num2 = 4;
 		double num3 = 9;
 		double num4 = 45.0;
+		double num5 = 15.0;
+		double num6 = 30.0;
 		
 		Calculator math = new Calculator();
 		
@@ -32,6 +34,9 @@ public class Main {
 		
 		double sinResult = Magicmath.sin(num4);
 		System.out.printf("The sin of %s is: %s\n", num4, sinResult);
+		
+		double cosResult = Magicmath.cos(num5);
+		System.out.printf("The cosine of %s is: %s\n", num5, cosResult);
 
 	}
 

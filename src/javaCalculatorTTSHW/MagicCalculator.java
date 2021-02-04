@@ -17,7 +17,15 @@ public class MagicCalculator extends Calculator{
 		double radians = Math.toRadians(num4);// convert degrees to radians
 		sin = Math.sin(radians);
 		return sin;
-		
 	}
 	
+	//cos Method
+	public double cos(double num5) {
+		double cos = 0;
+		double radians = Math.toRadians(num5);
+		cos = Math.cos(radians);
+		return cos;
+	}
+	
+	//tan Method
 }
