@@ -33,7 +33,7 @@ public class Calculator {
 	}
 	
 	// square Method
-	public static int square(int num1, int num2) {
+	public static int square(int num1) {
 		int square = 0;
 		square = num1 * num1;
 		return square;
